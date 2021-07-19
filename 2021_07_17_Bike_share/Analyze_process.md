@@ -56,5 +56,17 @@ To guide us in our analysis, we will use 12 months data collected by our company
       
 I then take a quick look at the data to find more mistake.
 
+3. **Analyze**
 
+   First, begin by answering to the first question : **How different are casual riders from annual members ?**
+   
+   I compute the average time of casual riders and annual members. The output shows that casual riders ride longer time than member riders. I ask myself why result shows that. **Are there outliers ? Clipping ? something else**
+   
+   I look at the maximum value for the `time` column. An output of 40days of biking was shown. I look again, same. There were more errors than expected and my cleaning part was not done properly. Back to **Point 2**.
+   
+   ## Think that i clean ##
+   
+   - [X] negative values
+   
+   
 
