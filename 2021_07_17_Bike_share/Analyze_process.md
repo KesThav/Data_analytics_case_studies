@@ -1,8 +1,25 @@
-Hi,
 
-Ready first the case study to be sure that we start from the same point. The link for the file used can be found there. I use the dataset from **2020-04** to **2021-06**.
+# Summary #
 
-Explanation of the analyze process :
+Ready first the case study to be sure that we start from the same point. The link for the file used can be found there. 
+
+Cycle bike-share is a company presented in Chicago. Their business is oriented on the location of bikes to individuals.
+
+The company wants to design a new marketing strategy to convert casual riders into annual members.
+
+Before doing anything, we should first set the main question which will be the problem to solve :
+
+- How to convert casual riders into annual members ?
+
+To answer it, we should first ask ourself :
+
+- How different are casual riders from annual members ?
+- What will make a casual riders buy Cyclistic annual memberships ?
+- How can Cyclistic use digital media to influence casual riders to become members ?
+
+To guide us in our analysis, we will use 12 months data collected by our company. The data goes **from 04-2020 to 06-2021.**
+
+# Analyze process #
 
 
 1. **Load and merge dataset**
@@ -36,4 +53,8 @@ Explanation of the analyze process :
       - [X] Redundant details (like `adress` and `id`)
 
       In my case, i decide to delete `started_at` and `ended_at` but i create a new column called `time` which is just `ended_at - started_at`. Much simpler for later analysis.
+      
+I then take a quick look at the data to find more mistake.
+
+
 
