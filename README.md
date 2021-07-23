@@ -1,4 +1,4 @@
-# Data_analytics_case_studies
+# About
 
 Hi,
 
@@ -10,3 +10,13 @@ Some points :
 - Each folder's name will start by the starting date of the case study. 
 
 Enjoy :)
+
+# Case studies
+
+**Python**
+
+- 2017-07-17 : [Bike-share - How Does a Bike-Share Navigate Speedy Success](https://github.com/KesThav/Data_analytics_case_studies/tree/main/2021_07_17_Bike_share)
+
+**R**
+
+- 2017-07-23 : [Bellabeat -How-can-a-wellness-technology-company-play-it-smart](https://github.com/KesThav/Data_analytics_case_studies/tree/main/2021_07_23_Bellabeat)
